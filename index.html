@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Dark World - Deltarune Style</title>
+    <!-- Importamos el SDK de Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Fuente pixelada/retro estilo RPG (VT323) -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- Vinculamos el archivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>⚔️ Catálogo Dark World 🛒</h2>
+        <p>Filtro activo: Categoría <strong>"electronica"</strong> ordenados por <strong>precio ascendente</strong> (Límite: 5 objetos).</p>
+        
+        <button id="btnFiltrar">▶ Ejecutar Consulta</button>
+        
+        <ul id="listaProductos">
+            <!-- Los resultados aparecerán aquí -->
+        </ul>
+    </div>
+
+    <!-- Vinculamos el archivo JavaScript externo -->
+    <script src="main.js" defer></script>
+</body>
+</html>

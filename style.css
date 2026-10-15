@@ -1,0 +1,82 @@
+body {
+    background-color: #05020a;
+    background-image: radial-gradient(circle, #1a0833 0%, #05020a 100%);
+    color: #ffffff;
+    font-family: 'VT323', monospace, sans-serif;
+    font-size: 24px;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #0f071d;
+    border: 3px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4), inset 0 0 15px rgba(255, 0, 127, 0.2);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #ff007f;
+    text-shadow: 2px 2px #00f0ff;
+    margin-top: 0;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #dcd0ff;
+    line-height: 1.4;
+}
+
+strong {
+    color: #ffff00; /* Amarillo clásico de selección en RPGs */
+    text-shadow: 1px 1px #ff007f;
+}
+
+button {
+    background: #ff007f;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 12px 20px;
+    font-family: 'VT323', monospace;
+    font-size: 26px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #00f0ff;
+    transition: transform 0.1s, box-shadow 0.1s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff3399;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0px #00f0ff;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px #00f0ff;
+}
+
+ul {
+    margin-top: 25px;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 12px;
+    padding: 12px 18px;
+    background: #180c2e;
+    border-left: 6px solid #00f0ff;
+    border-top: 1px solid #331a5c;
+    border-right: 1px solid #331a5c;
+    border-bottom: 1px solid #331a5c;
+    color: #ffffff;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
+    letter-spacing: 0.5px;
+}
